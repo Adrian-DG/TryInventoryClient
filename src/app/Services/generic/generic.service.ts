@@ -6,11 +6,13 @@ import { environment as ProdAPI } from '../../../environments/environment.prod';
 @Injectable({
   providedIn: 'root'
 })
-export class GenericService {
+export abstract class GenericService {
 
   private endPoint: string = '';
 
   constructor() { 
     this.endPoint += (isDevMode()) ? DevAPI.api_url : ProdAPI.api_url;
   }
+
+  abstract GetResourceUrl(): string;
 }

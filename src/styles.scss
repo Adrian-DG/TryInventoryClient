@@ -1,13 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-html,
-body {
-	height: 100%;
-}
-body {
-	margin: 0;
-	font-family: Roboto, 'Helvetica Neue', sans-serif;
-}
-
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+// variables
+
+$primary-color: rgb(102, 91, 153);
+$secondary-color: rgba(102, 91, 153, 0.8);
+
+$light-color: #e3e3e3;
+$darken-color: #737272;
+
+$white-color: #ffffff;
+
+$border-demo: 2px solid red;

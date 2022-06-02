@@ -1,0 +1,31 @@
+@import '../../../styles.scss';
+
+#main {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.title {
+		height: 20%;
+		.text-center {
+			color: $darken-color;
+		}
+	}
+
+	.container {
+		height: 60%;
+		.slider {
+			width: 50%;
+			height: auto;
+			border-radius: 1em;
+		}
+		.formulary {
+			width: 30%;
+			height: 95%;
+			background-color: $light-color;
+			border: none;
+			border-radius: 1em;
+		}
+	}
+}

@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { HomeComponent } from './Pages/home/home.component';
 
 @NgModule({
-	declarations: [AppComponent],
+	declarations: [AppComponent, NavbarComponent, HomeComponent],
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
